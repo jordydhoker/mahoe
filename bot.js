@@ -59,7 +59,7 @@ async function run(state) {
     }
 }
 
-const { token } = require("./auth.json");
-client.login(token || process.env.token);
+//const { token } = require("./auth.json");
+client.login(process.env.token);
 
 console.log("Running MAHOE");
