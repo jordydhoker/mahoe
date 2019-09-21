@@ -38,7 +38,7 @@ function canRun({ message, ...state }) {
         return false;
     }
 
-    if (message.author.id == 113733053150527497) {
+    if (message.author.id === 113733053150527497) {
         //fuck kabnaar
         message.reply("zwijg is");
         return false;
